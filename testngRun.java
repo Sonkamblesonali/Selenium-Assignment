@@ -7,7 +7,7 @@ public class testngRun extends BaseTest {
 
 	@Test(priority = 1)
 
-	public void loginwithinvalidcredentials() throws InterruptedException {
+	public void loginwithiEmptycredentials() throws InterruptedException {
 
 		QAEngineerAssessment loginwithInvalidCred = new QAEngineerAssessment(driver);
 		loginwithInvalidCred.loginwithemptydeatils();
