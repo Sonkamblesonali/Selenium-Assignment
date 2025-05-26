@@ -42,6 +42,26 @@ In the src/test/java directory, open testngRun.java
 Right-click on the file → Run As → TestNG Test
 
 
+BaseTest.java
+Sets up and closes the Chrome browser before and after tests run, so every test starts fresh.
+
+QAEngineerAssessment.java
+Contains methods to interact with the app — login, open dashboard, and fill out the Add Patient form.
+
+testngRun.java
+Runs the test cases in order:
+
+Login test — verifies user can log in with valid credentials.
+
+Dashboard test — checks the patient dashboard loads correctly.
+
+Add Patient test — verifies that adding a new patient with valid data works and the patient appears in the system.
+
+
+
+
+
+
 
 
 
